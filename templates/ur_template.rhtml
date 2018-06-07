@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>Cloze Test - <%=$title%> (Level <%=$level%>) - Global Storybooks</title>
+    <link rel="stylesheet" type="text/css" href="../../css/spectre.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/spectre-icons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/cloze.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../js/cloze.js" type="text/javascript"></script>
+    <script src="<%=$idx%>.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      <%=$uniq%>
+      <%=$chapters%>
+    </script>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/earlyaccess/notonastaliqurdu.css);
+      .def {
+        font-family:'Noto Nastaliq Urdu',serif;
+      }
+      .chip-heading {
+        text-align: right;
+        direction: ltr;
+        padding-top: 15px;
+      }
+      .form-select {
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="float-left">
+      <select class="btn btn-lg lang-selector" onchange="window.location=this.value" accesskey="l">
+        <option selected="" disabled="">Change language</option>
+        <option value="../../en/<%=$idx%>">English</option>
+        <option value="../../fr/<%=$idx%>">French</option>
+        <option value="../../ar/<%=$idx%>">Arabic</option>
+        <option value="../../de/<%=$idx%>">German</option>
+        <option value="../../it/<%=$idx%>">Italian</option>
+        <option value="../../ko/<%=$idx%>">Korean</option>
+        <option value="../../fa/<%=$idx%>">Persian</option>
+        <option value="../../pt/<%=$idx%>">Portuguese</option>
+        <option value="../../pa/<%=$idx%>">Punjabi</option>
+        <option value="../../es/<%=$idx%>">Spanish</option>
+        <option value="../../tl/<%=$idx%>">Tagalog</option>
+        <option value="../../ur/<%=$idx%>">Urdu</option>
+      </select>
+    </div>
+
+    <h1 dir="rtl"><em class="def"><%=$title%></em> (Level <%=$level%>) - Audio Cloze Tests</h1>
+    <h2>Global Storybooks</h2>
+
+    <div id="score">&nbsp;</div>
+
+    <h3>Part 1: Instructions</h3>
+    <h5>Listen carefully to the audio samples and use the dropdown in each of the accompanying sentences to identify the missing words. Click the button below to begin.</h5>
+
+    <div id="output" dir="rtl">&nbsp;</div>
+
+      <button id="begin" type="button" class="btn btn-lg" accesskey="b" onclick="testCloze('<%=$lang%>', '<%=$idx%>')">Begin</button><p>
+
+    <div id="more" dir="rtl" style="display:none">
+      <h3>More Cloze Tests</h3>
+      <div class="column col-5 col-lg-12 col-md-12 col-sm-12">
+<%=$more%>
+      </div>
+    </div>
+  </body>
+</html>

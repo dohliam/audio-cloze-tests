@@ -1,0 +1,25 @@
+body {
+  padding: 20px;
+}
+button, select {
+  height: 40px;
+}
+.form-select {
+  width: auto;
+}
+.checkmark {
+  border-radius: 50px!important;
+  background-color: green!important;
+  border-color: darkgreen!important;
+}
+.crossmark {
+  border-radius: 50px!important;
+  background-color: red!important;
+  border-color: darkred!important;
+}
+.lang-selector {
+  font-size: inherit!important;
+}
+#score {
+  padding: 20px;
+}

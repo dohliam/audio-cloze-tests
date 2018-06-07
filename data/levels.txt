@@ -1,0 +1,40 @@
+0302	Fire	1
+0271	Two	1
+0231	Weather Book	1
+0008	What are you doing?	1
+0003	School clothes	1
+0002	Look at the animals	1
+0067	Cooking	1
+0120	Hair	1
+0156	The hungry crocodile	1
+0129	Lazy little brother	1
+0009	Where's my cat?	1
+0112	My body	1
+0087	I like to read	1
+0030	Feelings	1
+0327	Counting animals	1
+0001	A very tall man	2
+0210	Tingi and the cows	2
+0095	Zama is great!	2
+0342	Punishment	2
+0337	Children of wax	2
+0296	Tom the banana seller	2
+0004	Goat, Dog and Cow	2
+0089	Khalai talks to plants	2
+0027	Decision	2
+0234	Andiswa soccer star	2
+0111	Why hippos have no hair	2
+0141	Chicken and millipede	3
+0006	Anansi and Wisdom	3
+0158	Hen and Eagle	3
+0066	Nozibele and the three hairs	3
+0110	A tiny seed: The story of Wangari Maathai	3
+0324	Day I left home for the city	3
+0315	Sakima's song	3
+0201	Donkey child	3
+0291	What Vusi's sister said	4
+0294	Grandma's bananas	4
+0243	Holidays with grandmother	4
+0072	The honeyguide's revenge	4
+0262	Magozwe	5
+0052	Simbegwire	5
